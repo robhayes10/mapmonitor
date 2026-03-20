@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npx vite build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/scan", "destination": "/api/scan" }
+  ]
+}
